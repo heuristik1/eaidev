@@ -23,6 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="daemon_main.py" />
     <Compile Include="Globals.py" />
     <Compile Include="module1.py">
       <SubType>Code</SubType>
