@@ -19,7 +19,7 @@ class TEMPReader():
    
     logger = None
     host = socket.gethostname()
-    #streamer = Streamer(bucket_name = host, bucket_key = host, access_key="qLErRNJ6F3FpEHTVWhcEndWitkLegc7i")
+    #streamer = Streamer(bucket_name = host, bucket_key = host, access_key="")
     
     def __init__(self):
         self.logger = logging.getLogger('root')
